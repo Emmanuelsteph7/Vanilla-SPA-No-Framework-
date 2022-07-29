@@ -1,0 +1,16 @@
+.login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+}
+
+.login__form {
+  padding: 20px;
+  background-color: var(--offWhite);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  width: 90%;
+  max-width: 400px;
+}

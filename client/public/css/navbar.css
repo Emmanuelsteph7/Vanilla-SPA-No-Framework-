@@ -1,0 +1,25 @@
+.header {
+  padding: 20px 0;
+  background-color: var(--primary);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__brandLink {
+  color: var(--white);
+  font-size: var(--h4);
+}
+
+.header__navUl {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  margin-left: 25px;
+  color: var(--white);
+}
