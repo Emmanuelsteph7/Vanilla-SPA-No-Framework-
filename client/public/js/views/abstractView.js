@@ -1,4 +1,4 @@
-import { navbar } from "../components/index.js";
+import { navbar, footer } from "../components/index.js";
 
 export class AbstractView {
   constructor() {}
@@ -19,7 +19,7 @@ export class AbstractView {
   }
 
   getLayout(viewData) {
-    const layoutHtml = `${navbar()} ${viewData}`;
+    const layoutHtml = `${navbar()} ${viewData} ${footer()}`;
     return layoutHtml;
   }
 }

@@ -5,7 +5,10 @@ export const navbar = () => {
     <header class="header">
     <div class="header__container container">
       <div class="header__brand">
-        <a class="header__brandLink" href="${routes.HOME}" data-link>Logo</a>
+        <a class="header__brandLink" href="${routes.HOME}" data-link>
+          <img class="header__logo" src="/public/assets/images/brand.png" alt="logo" />
+          <span class="header__text">Blogs</span>
+        </a>
       </div>
       <nav class="header__nav">
         <ul class="header__navUl">

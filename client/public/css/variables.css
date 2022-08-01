@@ -1,6 +1,7 @@
 :root {
   /* colors */
-  --primary: rgb(128, 46, 46);
+  /* --primary: rgb(128, 46, 46); */
+  --primary: #11818d;
   --offWhite: rgb(242, 235, 235);
   --black: rgb(29, 13, 13);
   --white: white;

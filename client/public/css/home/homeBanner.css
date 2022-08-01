@@ -1,0 +1,49 @@
+.homeBanner {
+  height: calc(100vh - 68px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../assets/images/home-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeBanner__container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeBanner__body {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.homeBanner__header {
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--offWhite);
+}
+
+.homeBanner__subHeader {
+  text-align: center;
+  color: var(--offWhite);
+}
+
+.homeBanner__btnDiv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.homeBanner__btn {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  .homeBanner__btn {
+    width: 100%;
+    text-align: center;
+  }
+}

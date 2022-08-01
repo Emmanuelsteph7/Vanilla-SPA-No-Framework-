@@ -12,6 +12,17 @@
 .header__brandLink {
   color: var(--white);
   font-size: var(--h4);
+  display: inline-flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 50px;
+  object-fit: cover;
+}
+
+.header__text {
+  color: var(--offWhite);
 }
 
 .header__navUl {

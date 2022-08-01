@@ -43,3 +43,13 @@
 .btn--full {
   width: 100%;
 }
+
+.mainHeader {
+  font-size: var(--h1);
+  font-weight: 400;
+}
+
+.sectionHeader {
+  font-size: var(--h2);
+  font-weight: 400;
+}

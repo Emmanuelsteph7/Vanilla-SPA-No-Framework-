@@ -1,4 +1,4 @@
-export { HomeView } from "./home.js";
+export { HomeView } from "./home/index.js";
 export { AboutView } from "./about.js";
 export { ContactView } from "./contact.js";
 export { NotFoundView } from "./notFound.js";

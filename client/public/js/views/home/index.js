@@ -1,4 +1,5 @@
-import { AbstractView } from "./abstractView.js";
+import { AbstractView } from "../abstractView.js";
+import { banner } from "./banner.js";
 
 export class HomeView extends AbstractView {
   constructor() {
@@ -7,7 +8,7 @@ export class HomeView extends AbstractView {
   }
 
   async getHtml() {
-    const data = "<h1>This is the home page</h1>";
+    const data = `${banner()}`;
     return this.getLayout(data);
   }
 }
