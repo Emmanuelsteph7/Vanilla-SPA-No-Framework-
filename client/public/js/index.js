@@ -9,6 +9,12 @@ window.addEventListener("popstate", router);
 
 document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("click", (e) => {
+    if (e.target.parentNode.matches("[data-link]")) {
+      e.preventDefault();
+
+      navigate(e.target.parentNode.href);
+    }
+
     if (e.target.matches("[data-link]")) {
       e.preventDefault();
       navigate(e.target.href);
